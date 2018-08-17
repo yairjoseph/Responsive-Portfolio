@@ -1,0 +1,185 @@
+
+header {
+    overflow: auto;
+    background-color:#ffffff; 
+    border-bottom: 1px solid #cccccc;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    margin-bottom: 40px;
+}
+
+.name {
+    float: left;
+    background-color:#4aaaa5;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: auto;    
+    height: 100%;   
+}
+
+.tabs {
+    float: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: rgba(202, 202, 202, 0.529);
+    margin-top: 35px;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(119, 119, 119, 0.8);
+}
+
+.container {
+    background-color: #ffffff;
+    overflow: auto;
+    width: 960px;
+    margin: auto;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    margin-bottom: 200px;
+   }
+   
+h2 {
+    color:#4aaaa5;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+
+.paragraph {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: grey;
+    padding: 20px;
+    margin-top: -35px;
+   }
+
+h5 {
+    background:#4aaaa5;
+}
+
+#wallpaper {
+    
+    background-image: url("../images/leaves-pattern.png");
+}
+
+.wrap {
+    width: 960px ;
+    margin: auto;
+}
+
+footer {
+    color:white;
+    background-color:#666666;
+    width: 100%;
+    padding-top:20px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+#copyright {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 40px;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.push {
+    min-height: 85vh;
+    
+}
+
+hr {
+    margin: 0 20px;
+    height: 3px;
+    background-color: #c9ccd180;
+    border: 0 none;
+}
+
+.ptext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: grey;
+}
+
+.boxes {
+    border-color: rgba(202, 202, 202);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(119, 119, 119, 0.8);
+    padding: 15px;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+    
+h1 {
+    font-size: 25px;
+}
+
+input[type=text], select, textarea {
+    
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 10px; 
+    resize: vertical 
+}
+.portfolio {
+    position: relative;
+    float: left;
+    margin: 70px;
+    
+}
+.image {
+    height: 200px;
+    width: 200px;
+}
+
+.link {
+    background-color: #4aaaa5;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 180px;
+    padding: 10px;
+    margin: auto;
+    z-index: 1;
+}
+.inlink {
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:#ffffff;
+}
+#border1 {
+    border-right: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+
+}
+
+#radius {
+    border-radius: 25px; 
+    float: left;
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+   header, .container, footer, body {
+    width: auto;
+    padding: 20x;
+    margin: 0;
+    }
+
+}
+
