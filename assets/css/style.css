@@ -5,6 +5,7 @@ header {
     border-bottom: 1px solid #cccccc;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .name {
@@ -173,13 +174,61 @@ input[type=text], select, textarea {
     margin: 10px;
 }
 
+@media screen and (max-width: 980px) {
+
+    .container, footer, body {
+     width: auto;
+     padding: 20x;
+     margin: 0;
+     float: none;
+     }
+     .wrap {
+         height: auto;
+         width: auto;
+         top: 0;
+         float: none;
+         margin: auto;
+         padding-right: 20px;
+     }
+     * {
+         width: auto;
+     }
+ 
+ }
+ 
 @media screen and (max-width: 768px) {
 
-   header, .container, footer, body {
+   .container, footer, body {
     width: auto;
     padding: 20x;
     margin: 0;
+    float: none;
     }
 
 }
+@media screen and (max-width: 640px) {
+
+    .container, footer, body {
+     width: auto;
+     padding: 20x;
+     margin: 0;
+     position: static;
+     float: none;
+     }
+     .name {
+        width: 100%;
+        text-align: center;
+    } 
+    .portfolio {
+        right: 0;
+        left: 0;
+    }
+    .container {
+        width: auto;
+    }
+    .nav {
+        
+    }
+ }
+ 
 
