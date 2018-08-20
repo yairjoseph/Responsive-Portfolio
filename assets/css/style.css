@@ -22,16 +22,17 @@ header {
 }
 
 .tabs {
-    float: right;
     padding-left: 5px;
     padding-right: 5px;
     border-color: rgba(202, 202, 202, 0.529);
-    margin-top: 35px;
     text-decoration: none;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: rgb(119, 119, 119, 0.8);
 }
-
+.anotherone {
+    float: right;
+    margin-top: 35px;
+}
 .container {
     background-color: #ffffff;
     overflow: auto;
@@ -213,7 +214,6 @@ input[type=text], select, textarea {
 
     .container, footer, body {
      width: auto;
-     padding: 20x;
      margin: 0;
      position: static;
      float: none;
@@ -231,6 +231,20 @@ input[type=text], select, textarea {
     }
     .wrap {
         width: 100%;
+        padding: 0;
+    }
+    .tabs {
+        margin-top: 10px;
+    }
+    .anotherone {
+       width: 100%;
+       float: none;
+       padding: none;
+       margin: 0;
+       position: static;
+       display: flex;
+       justify-content: center;
+       margin-bottom: 10px;
     }
  }
  
