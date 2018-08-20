@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 header {
     overflow: auto;
@@ -225,6 +228,9 @@ input[type=text], select, textarea {
     }
     .container {
         width: auto;
+    }
+    .wrap {
+        width: 100%;
     }
  }
  
